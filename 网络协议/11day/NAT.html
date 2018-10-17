@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="zh-tw" >
+    <!-- Start book python高级 -->
+    <head>
+        <!-- head:start -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>NAT | python高级</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-splitter/splitter.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-emphasize/plugin.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../09day/http协议.html" />
+    
+    
+    <link rel="prev" href="../11day/网络通信过程.html" />
+    
+
+        <!-- head:end -->
+    </head>
+    <body>
+        <!-- body:start -->
+        
+    <div class="book"
+        data-level="1.2"
+        data-chapter-title="NAT"
+        data-filepath="11day/NAT.md"
+        data-basepath=".."
+        data-revision="Fri Apr 20 2018 20:59:25 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        python高级
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="11day/index.html">
+            
+                
+                    <a href="../11day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        网络通信过程
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="11day/网络通信过程.html">
+            
+                
+                    <a href="../11day/网络通信过程.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        网络通信过程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2" data-path="11day/NAT.html">
+            
+                
+                    <a href="../11day/NAT.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        NAT
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="09day/http协议.html">
+            
+                
+                    <a href="../09day/http协议.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.3.</b>
+                        
+                        http协议
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="09day/index.html">
+            
+                
+                    <a href="../09day/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        http协议、web服务器-并发服务器1
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="09day/Web静态服务器-1-显示固定的页面.html">
+            
+                
+                    <a href="../09day/Web静态服务器-1-显示固定的页面.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        Web静态服务器-1-显示固定的页面
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="09day/Web静态服务器-2-显示需要的页面.html">
+            
+                
+                    <a href="../09day/Web静态服务器-2-显示需要的页面.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        Web静态服务器-2-显示需要的页面
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="09day/Web并发服务器-1-多进程.html">
+            
+                
+                    <a href="../09day/Web并发服务器-1-多进程.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        Web静态服务器-3-多进程
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="09day/Web并发服务器-2-多线程.html">
+            
+                
+                    <a href="../09day/Web并发服务器-2-多线程.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        Web静态服务器-4-多线程
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    本書使用 GitBook 釋出
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >python高级</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h2 id="nat&#x7F51;&#x7EDC;&#x5730;&#x5740;&#x8F6C;&#x6362;&#x5668;">NAT(&#x7F51;&#x7EDC;&#x5730;&#x5740;&#x8F6C;&#x6362;&#x5668;)</h2>
+<p><img src="../Images/12day/nat.png" alt=""></p>
+<h4 id="&#x8BF4;&#x660E;">&#x8BF4;&#x660E;</h4>
+<ol>
+<li>&#x5F53;&#x5728;&#x5BB6;&#x91CC;&#x7528;&#x5BBD;&#x5E26;&#x94FE;&#x63A5;&#x4E0A;&#x7F51;&#x65F6;&#xFF0C;&#x4F1A;&#x628A;&#x7535;&#x8BDD;&#x7EBF;(&#x4ECA;&#x5929;&#x5F88;&#x591A;&#x5730;&#x65B9;&#x90FD;&#x662F;&#x5149;&#x7EA4;)----&gt;&#x8C03;&#x5236;&#x89E3;&#x8C03;&#x5236;(&#x7B80;&#x79F0;&#x732B;)-------&gt;&#x7535;&#x8111;&#x7B49;&#x8BBE;&#x5907;</li>
+<li><p>&#x7535;&#x8111;&#x4F1A;&#x5F97;&#x5230;&#x6765;&#x81EA;&#x7535;&#x4FE1;&#x670D;&#x52A1;&#x5546;&#x7684;&#x4E00;&#x4E2A;&#x516C;&#x7F51;ip&#x5730;&#x5740;&#xFF08;&#x5207;&#x8BB0;&#x53EA;&#x6709;&#x516C;&#x7F51;ip&#x5730;&#x5740;&#x624D;&#x80FD;&#x4E0A;&#x7F51;&#xFF09;&#xFF0C;&#x6B64;&#x65F6;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4E0A;&#x7F51;happy...</p>
+</li>
+<li><p>&#x4E3A;&#x4E86;&#x80FD;&#x591F;&#x8BA9;&#x591A;&#x53F0;&#x8BBE;&#x5907;&#x90FD;&#x53EF;&#x4EE5;&#x4E0A;&#x7F51;&#xFF0C;&#x9700;&#x8981;&#x5C06;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x201C;&#x5206;&#x6D41;&#x201D;  &#x7535;&#x8BDD;&#x7EBF;(&#x4ECA;&#x5929;&#x5F88;&#x591A;&#x5730;&#x65B9;&#x90FD;&#x662F;&#x5149;&#x7EA4;)----&gt;&#x8C03;&#x5236;&#x89E3;&#x8C03;&#x5236;(&#x7B80;&#x79F0;&#x732B;)-------&gt;&#x8DEF;&#x7531;&#x5668;------&gt;&#x7535;&#x8111;&#x7B49;&#x8BBE;&#x5907;</p>
+</li>
+<li>&#x6B64;&#x65F6;&#x8DEF;&#x7531;&#x5668;&#x7684;&#x4E00;&#x7AEF;&#x6709;&#x4E00;&#x4E2A;&#x516C;&#x7F51;ip&#x5730;&#x5740;&#xFF0C;&#x5269;&#x4E0B;&#x7684;4&#x4E2A;&#xFF08;&#x8DEF;&#x7531;&#x5668;&#x578B;&#x53F7;&#x4E0D;&#x540C;&#x4E2A;&#x6570;&#x4E0D;&#x540C;&#xFF09;&#x53EF;&#x4EE5;&#x63A5;&#x5165;&#x7535;&#x8111;&#x7B49;&#x8BBE;&#x5907; &#x5E76;&#x4E14; &#x5B83;&#x4EEC;&#x7684;ip&#x662F;&#x79C1;&#x6709;ip(&#x4F8B;&#x5982; 192.168.1.2)</li>
+<li>&#x5F53;&#x4E00;&#x4E2A;&#x7535;&#x8111;&#xFF08;192.168.1.2&#xFF09;&#x4E0A;&#x7F51;&#x65F6;&#xFF0C;&#x5148;&#x901A;&#x8FC7;DNS&#x534F;&#x8BAE;&#x89E3;&#x6790;&#x51FA;&#x67D0;&#x4E2A;&#x57DF;&#x540D;&#x5BF9;&#x5E94;&#x7684;ip&#xFF0C;&#x7136;&#x540E;<blockquote>
+<ul>
+<li>&#x53D1;&#x9001;&#x6570;&#x636E;&#x65F6;,&#x5728;&#x7ECF;&#x8FC7;&#x8DEF;&#x7531;&#x5668;&#x65F6;&#x8F6C;&#x6362;&#x4E3A;&#x516C;&#x7F51;ip&#x4EE5;&#x53CA;&#x8DEF;&#x7531;&#x5668;&#x81EA;&#x5DF1;&#x5206;&#x914D;&#x7684;&#x4E34;&#x65F6;&#x7AEF;&#x53E3;</li>
+</ul>
+<p>192.168.1.2:6789-----&gt;192.168.1.1 &#x8DEF;&#x7531;&#x5668;  116.226.52.212:6539-------&gt;&#x732B;----&gt;&#x4E07;&#x7EF4;&#x7F51;</p>
+<ul>
+<li>&#x63A5;&#x6536;&#x6570;&#x636E;&#x65F6;,&#x5728;&#x7ECF;&#x8FC7;&#x8DEF;&#x7531;&#x5668;&#x65F6;&#x8F6C;&#x6362;&#x4E3A;&#x8DEF;&#x7531;&#x5668;&#x4E4B;&#x524D;&#x8BB0;&#x5F55;&#x7684;ip&#x4EE5;&#x53CA;port</li>
+</ul>
+<p>&#x4E07;&#x7EF4;&#x7F51;-------&gt;&#x732B;-----&gt;116.226.52.212:6539 &#x8DEF;&#x7531;&#x5668; 192.168.1.1 ----&gt;192.168.1.2:6789</p>
+</blockquote>
+</li>
+</ol>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../11day/网络通信过程.html" class="navigation navigation-prev " aria-label="Previous page: 网络通信过程"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../09day/http协议.html" class="navigation navigation-next " aria-label="Next page: http协议"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"toggle-chapters":{},"splitter":{},"emphasize":{},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
+    </body>
+    <!-- End of book python高级 -->
+</html>

@@ -1,0 +1,1151 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>唯一化和集合函数 | Linkedln：2016年中国互联网最热职位人才库报告</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../part02/2.5.6_随机数生成函数.html" />
+    
+    
+    <link rel="prev" href="../part02/2.5.4_添加和删除函数.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="2.5.5"
+        data-chapter-title="唯一化和集合函数"
+        data-filepath="part02/2.5.5_唯一化和集合函数.md"
+        data-basepath=".."
+        data-revision="Thu Dec 14 2017 23:24:20 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        数据分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="part01/1_数据分析概述.html">
+            
+                
+                    <a href="../part01/1_数据分析概述.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        数据分析概述
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="part01/1.1_Python数据分析.html">
+            
+                
+                    <a href="../part01/1.1_Python数据分析.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        Python数据分析
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="part01/1.2_jupyper_notebook.html">
+            
+                
+                    <a href="../part01/1.2_jupyper_notebook.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        jupyter notebook
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="part02/2_Numpy.html">
+            
+                
+                    <a href="../part02/2_Numpy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        Numpy
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="part02/2.1_创建数组.html">
+            
+                
+                    <a href="../part02/2.1_创建数组.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        创建数组
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="part02/2.2_数据类型.html">
+            
+                
+                    <a href="../part02/2.2_数据类型.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        数据类型
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="part02/2.3_数组运算.html">
+            
+                
+                    <a href="../part02/2.3_数组运算.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        数组运算
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="part02/2.4_数组索引和切片.html">
+            
+                
+                    <a href="../part02/2.4_数组索引和切片.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        数组索引和切片
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="part02/2.5_数组函数.html">
+            
+                
+                    <a href="../part02/2.5_数组函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        数组函数
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.5.1" data-path="part02/2.5.1_通用元素级数组函数.html">
+            
+                
+                    <a href="../part02/2.5.1_通用元素级数组函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.1.</b>
+                        
+                        通用元素级数组函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.2" data-path="part02/2.5.2_数组统计函数.html">
+            
+                
+                    <a href="../part02/2.5.2_数组统计函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.2.</b>
+                        
+                        数组统计函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.3" data-path="part02/2.5.3_all和any函数.html">
+            
+                
+                    <a href="../part02/2.5.3_all和any函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.3.</b>
+                        
+                        all和any函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.4" data-path="part02/2.5.4_添加和删除函数.html">
+            
+                
+                    <a href="../part02/2.5.4_添加和删除函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.4.</b>
+                        
+                        添加和删除函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.5.5" data-path="part02/2.5.5_唯一化和集合函数.html">
+            
+                
+                    <a href="../part02/2.5.5_唯一化和集合函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.5.</b>
+                        
+                        唯一化和集合函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.6" data-path="part02/2.5.6_随机数生成函数.html">
+            
+                
+                    <a href="../part02/2.5.6_随机数生成函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.6.</b>
+                        
+                        随机数生成函数
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5.7" data-path="part02/2.5.7_数组排序函数.html">
+            
+                
+                    <a href="../part02/2.5.7_数组排序函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.7.</b>
+                        
+                        数组排序函数
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="part02/2.6_数组文件输入输出.html">
+            
+                
+                    <a href="../part02/2.6_数组文件输入输出.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        数组文件输入输出
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.6.1" data-path="part02/2.6.1_数组输入和输出.html">
+            
+                
+                    <a href="../part02/2.6.1_数组输入和输出.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.1.</b>
+                        
+                        数组输入和输出
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6.2" data-path="part02/2.6.2_读写文本文件.html">
+            
+                
+                    <a href="../part02/2.6.2_读写文本文件.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.2.</b>
+                        
+                        读写文本文件
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="part02/2.7_案例_亚洲国家人口数据计算.html">
+            
+                
+                    <a href="../part02/2.7_案例_亚洲国家人口数据计算.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        案例_亚洲国家人口数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="part03/3_Pandas.html">
+            
+                
+                    <a href="../part03/3_Pandas.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        Pandas
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="part03/3.1_Series.html">
+            
+                
+                    <a href="../part03/3.1_Series.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        Series
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="part03/3.1.1_Series创建.html">
+            
+                
+                    <a href="../part03/3.1.1_Series创建.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.1.</b>
+                        
+                        Series创建
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="part03/3.1.2_Series操作.html">
+            
+                
+                    <a href="../part03/3.1.2_Series操作.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.2.</b>
+                        
+                        Series操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="part03/3.1.3_了解NaN.html">
+            
+                
+                    <a href="../part03/3.1.3_了解NaN.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.3.</b>
+                        
+                        了解NaN
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="part03/3.2_DataFrame.html">
+            
+                
+                    <a href="../part03/3.2_DataFrame.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        DataFrame
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="part03/3.2.1_DataFrame创建.html">
+            
+                
+                    <a href="../part03/3.2.1_DataFrame创建.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.1.</b>
+                        
+                        创建对象
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="part03/3.2.2_DataFrame操作.html">
+            
+                
+                    <a href="../part03/3.2.2_DataFrame操作.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.2.</b>
+                        
+                        数据操作
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.3" data-path="part03/3.2.3_算数运算和数据对齐.html">
+            
+                
+                    <a href="../part03/3.2.3_算数运算和数据对齐.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.3.</b>
+                        
+                        算数运算和数据对齐
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.4" data-path="part03/3.2.4_函数应用-apply函数.html">
+            
+                
+                    <a href="../part03/3.2.4_函数应用-apply函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.4.</b>
+                        
+                        函数应用和映射了解NaN
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.5" data-path="part03/3.2.5_Pandas排序.html">
+            
+                
+                    <a href="../part03/3.2.5_Pandas排序.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.5.</b>
+                        
+                        Pandas排序
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.6" data-path="part03/3.2.6_等级索引和分级.html">
+            
+                
+                    <a href="../part03/3.2.6_等级索引和分级.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.6.</b>
+                        
+                        等级索引和分级
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.7" data-path="part03/3.2.7_处理缺失数据.html">
+            
+                
+                    <a href="../part03/3.2.7_处理缺失数据.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.7.</b>
+                        
+                        处理缺失数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="part03/3.3_数据准备.html">
+            
+                
+                    <a href="../part03/3.3_数据准备.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        数据准备
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="part03/3.3.1_数据组装.html">
+            
+                
+                    <a href="../part03/3.3.1_数据组装.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                        数据组装
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="part03/3.3.2_轴向旋转.html">
+            
+                
+                    <a href="../part03/3.3.2_轴向旋转.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                        轴向旋转
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="part03/3.4_数据转换.html">
+            
+                
+                    <a href="../part03/3.4_数据转换.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        数据转换
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="part03/3.4.1_删除重复行.html">
+            
+                
+                    <a href="../part03/3.4.1_删除重复行.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.1.</b>
+                        
+                        删除重复行列
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.2" data-path="part03/3.4.2_映射.html">
+            
+                
+                    <a href="../part03/3.4.2_映射.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.2.</b>
+                        
+                        映射
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.3" data-path="part03/3.4.3_排序-take函数.html">
+            
+                
+                    <a href="../part03/3.4.3_排序-take函数.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.3.</b>
+                        
+                        排序
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="part03/3.5_数据聚合.html">
+            
+                
+                    <a href="../part03/3.5_数据聚合.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        数据聚合
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.5.1" data-path="part03/3.5.1_分组-GroupBy.html">
+            
+                
+                    <a href="../part03/3.5.1_分组-GroupBy.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.1.</b>
+                        
+                        分组(GroupBy)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5.2" data-path="part03/3.5.2_聚合-Aggregation.html">
+            
+                
+                    <a href="../part03/3.5.2_聚合-Aggregation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.2.</b>
+                        
+                        聚合(Aggregation)
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="part03/3.6_数据读写.html">
+            
+                
+                    <a href="../part03/3.6_数据读写.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                        数据读写
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.6.1" data-path="part03/3.6.1_读写CSV文本数据.html">
+            
+                
+                    <a href="../part03/3.6.1_读写CSV文本数据.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.1.</b>
+                        
+                        读写CSV文本数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6.2" data-path="part03/3.6.2_读写HTML文本文件数据.html">
+            
+                
+                    <a href="../part03/3.6.2_读写HTML文本文件数据.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.2.</b>
+                        
+                        读写HTML文本文件数据
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6.3" data-path="part03/3.6.3_读写数据库数据.html">
+            
+                
+                    <a href="../part03/3.6.3_读写数据库数据.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.3.</b>
+                        
+                        读写数据库数据
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="part04/4_Matplotlib.html">
+            
+                
+                    <a href="../part04/4_Matplotlib.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        Matplotlib
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="part04/4.1_图表绘制.html">
+            
+                
+                    <a href="../part04/4.1_图表绘制.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        图标绘制
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="part04/4.1.1_线性图和案例.html">
+            
+                
+                    <a href="../part04/4.1.1_线性图和案例.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.1.</b>
+                        
+                        线性图和案例
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="part04/4.1.2_条状图和案例.html">
+            
+                
+                    <a href="../part04/4.1.2_条状图和案例.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.2.</b>
+                        
+                        条状图和案例
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="part04/4.1.3_饼图和案例.html">
+            
+                
+                    <a href="../part04/4.1.3_饼图和案例.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.3.</b>
+                        
+                        饼图和案例
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="part04/4.2_绘制多个图像.html">
+            
+                
+                    <a href="../part04/4.2_绘制多个图像.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        绘制多个图像
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >Linkedln：2016年中国互联网最热职位人才库报告</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="255-&#x552F;&#x4E00;&#x5316;&#x548C;&#x96C6;&#x5408;&#x51FD;&#x6570;">2.5.5 &#x552F;&#x4E00;&#x5316;&#x548C;&#x96C6;&#x5408;&#x51FD;&#x6570;</h3>
+<hr>
+<p>Numpy&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E9B;&#x9488;&#x5BF9;&#x4E00;&#x7EF4;ndarray&#x7684;&#x57FA;&#x672C;&#x96C6;&#x5408;&#x8FD0;&#x7B97;&#x3002;&#x6700;&#x5E38;&#x7528;&#x7684;&#x5C31;&#x662F;np.unique&#x4E86;&#xFF0C;&#x5B83;&#x7528;&#x4E8E;&#x627E;&#x51FA;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x552F;&#x4E00;&#x503C;&#x5E76;&#x8FD4;&#x56DE;&#x5DF2;&#x6392;&#x5E8F;&#x7684;&#x7ED3;&#x679C;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x65B9;&#x6CD5;</th>
+<th>&#x8BF4;&#x660E;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>unique(x)</td>
+<td>&#x8BA1;&#x7B97;x&#x4E2D;&#x7684;&#x552F;&#x4E00;&#x5143;&#x7D20;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x6709;&#x5E8F;&#x7ED3;&#x679C;.</td>
+</tr>
+<tr>
+<td>intersect1d(x, y)</td>
+<td>&#x8BA1;&#x7B97;x&#x548C;y&#x4E2D;&#x7684;&#x516C;&#x5171;&#x5143;&#x7D20;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x6709;&#x5E8F;&#x7ED3;&#x679C;.</td>
+</tr>
+<tr>
+<td>union1d(x, y)</td>
+<td>&#x8BA1;&#x7B97;x&#x548C;y&#x7684;&#x5E76;&#x96C6;&#xFF0C;&#x5E76;&#x8FD4;&#x56DE;&#x6709;&#x5E8F;&#x7ED3;&#x679C;.</td>
+</tr>
+<tr>
+<td>in1d(x, y)</td>
+<td>&#x5F97;&#x5230;&#x4E00;&#x4E2A;&#x8868;&#x793A;&#x201C;x&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5305;&#x542B;&#x4E8E;y&#x201D;&#x7684;&#x5E03;&#x5C14;&#x578B;&#x6570;&#x7EC4;.</td>
+</tr>
+<tr>
+<td>setdiff1d(x, y)</td>
+<td>&#x96C6;&#x5408;&#x7684;&#x5DEE;&#xFF0C;&#x5373;&#x5143;&#x7D20;&#x5728;x&#x4E2D;&#x4E14;&#x4E0D;&#x518D;y&#x4E2D;.</td>
+</tr>
+</tbody>
+</table>
+<p><span id="2.5.5.1"></span></p>
+<h5 id="1-&#x552F;&#x4E00;&#x5316;">1. &#x552F;&#x4E00;&#x5316;</h5>
+<pre><code class="lang-python"><span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
+
+names = np.array([<span class="hljs-string">&apos;aaa&apos;</span>, <span class="hljs-string">&apos;bbb&apos;</span>, <span class="hljs-string">&apos;ccc&apos;</span>, <span class="hljs-string">&apos;aaa&apos;</span>, <span class="hljs-string">&apos;ddd&apos;</span>, <span class="hljs-string">&apos;eee&apos;</span>, <span class="hljs-string">&apos;ccc&apos;</span>])
+ndarray1 = np.random.randint(<span class="hljs-number">1</span>, <span class="hljs-number">5</span>, <span class="hljs-number">10</span>)
+ndarray2 = np.random.randint(<span class="hljs-number">1</span>, <span class="hljs-number">5</span>, (<span class="hljs-number">3</span>, <span class="hljs-number">4</span>))
+
+ndarray1
+<span class="hljs-comment">#    array([4, 2, 1, 2, 2, 1, 4, 3, 2, 1])</span>
+
+ndarray2
+<span class="hljs-comment">#    array([[4, 3, 3, 1],</span>
+<span class="hljs-comment">#           [1, 3, 1, 3],</span>
+<span class="hljs-comment">#           [4, 4, 2, 1]])</span>
+
+np.unique(names)
+<span class="hljs-comment">#    array([&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;, &apos;ddd&apos;, &apos;eee&apos;], dtype=&apos;&lt;U3&apos;)</span>
+
+np.unique(ndarray1)
+<span class="hljs-comment">#    array([1, 2, 3, 4])</span>
+</code></pre>
+<p><span id="2.5.5.2"></span></p>
+<h5 id="2-&#x8BA1;&#x7B97;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x4EA4;&#x96C6;">2. &#x8BA1;&#x7B97;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x4EA4;&#x96C6;</h5>
+<pre><code class="lang-python">ndarray3 = np.arange(<span class="hljs-number">1</span>, <span class="hljs-number">10</span>)
+ndarray4 = np.arange(<span class="hljs-number">5</span>, <span class="hljs-number">15</span>)
+
+ndarray3
+<span class="hljs-comment">#    array([1, 2, 3, 4, 5, 6, 7, 8, 9])</span>
+
+ndarray4
+<span class="hljs-comment">#    array([ 5,  6,  7,  8,  9, 10, 11, 12, 13, 14])</span>
+
+np.intersect1d(ndarray3, ndarray4)
+<span class="hljs-comment">#    array([5, 6, 7, 8, 9])</span>
+</code></pre>
+<p><span id="2.5.5.3"></span></p>
+<h5 id="3-&#x8BA1;&#x7B97;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x5E76;&#x96C6;">3. &#x8BA1;&#x7B97;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x5E76;&#x96C6;</h5>
+<pre><code class="lang-python">ndarray5 = np.arange(<span class="hljs-number">1</span>, <span class="hljs-number">10</span>)
+ndarray6 = np.arange(<span class="hljs-number">5</span>, <span class="hljs-number">15</span>)
+
+ndarray5
+<span class="hljs-comment">#    array([1, 2, 3, 4, 5, 6, 7, 8, 9])</span>
+
+ndarray6
+<span class="hljs-comment">#    array([ 5,  6,  7,  8,  9, 10, 11, 12, 13, 14])</span>
+
+np.union1d(ndarray5, ndarray6)
+<span class="hljs-comment">#    array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14])</span>
+</code></pre>
+<p><span id="2.5.5.4"></span></p>
+<h5 id="4-&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5728;&#x53E6;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x5B58;&#x5728;">4. &#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x662F;&#x5426;&#x5728;&#x53E6;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x4E2D;&#x5B58;&#x5728;</h5>
+<pre><code class="lang-python">ndarray7 = np.arange(<span class="hljs-number">1</span>, <span class="hljs-number">6</span>)
+ndarray8 = np.arange(<span class="hljs-number">3</span>, <span class="hljs-number">8</span>)
+
+ndarray7
+<span class="hljs-comment">#    array([1, 2, 3, 4, 5])</span>
+
+ndarray8
+<span class="hljs-comment">#    array([3, 4, 5, 6, 7])</span>
+
+np.in1d(ndarray7, ndarray8)
+<span class="hljs-comment">#    array([False, False,  True,  True,  True], dtype=bool)</span>
+</code></pre>
+<p><span id="2.5.5.5"></span></p>
+<h5 id="5-&#x8BA1;&#x7B97;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x5DEE;&#x96C6;">5. &#x8BA1;&#x7B97;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x5DEE;&#x96C6;</h5>
+<pre><code>ndarray9 = np.arange(1, 6)
+ndarray10 = np.arange(3, 8)
+
+ndarray9
+#    array([1, 2, 3, 4, 5])
+
+ndarray10
+#    array([3, 4, 5, 6, 7])
+
+np.intersect1d(ndarray9, ndarray10)
+#    array([3, 4, 5])
+
+np.setdiff1d(ndarray9, ndarray10)
+#    array([1, 2])
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../part02/2.5.4_添加和删除函数.html" class="navigation navigation-prev " aria-label="Previous page: 添加和删除函数"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../part02/2.5.6_随机数生成函数.html" class="navigation navigation-next " aria-label="Next page: 随机数生成函数"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>

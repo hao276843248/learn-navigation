@@ -1,0 +1,21 @@
+require(['img'],function(Blazy){
+	var bLazy = new Blazy({
+	    selector: 'img.lazy',
+	    offset: 0
+	});
+});
+//
+define(['ui'], function() {
+
+	layui.use(['element'], function(){
+	  	var element = layui.element;
+     			  $ = layui.jquery;
+
+		//search
+	   	
+	});	
+	
+
+});
+
+

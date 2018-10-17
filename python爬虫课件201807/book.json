@@ -1,0 +1,15 @@
+{
+    "plugins": [
+      "emphasize",
+      "prism", "-highlight",
+      "expandable-chapters-small",
+      "book-summary-scroll-position-saver"],
+    "pluginsConfig": {
+        "expandable-chapters-small":{},
+        "prism": {
+          "css": [
+            "prismjs/themes/prism-solarizedlight.css"
+          ]
+        }
+    }
+}

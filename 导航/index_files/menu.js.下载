@@ -1,0 +1,28 @@
+//menu
+$(document).ready(function(){  
+  $('li.mainlevel').mousemove(function(){
+  $(this).find('ul').slideDown("1000");//you can give it a speed
+  });
+  $('li.mainlevel').mouseleave(function(){
+  $(this).find('ul').slideUp("fast");
+  });
+  });
+
+
+
+
+$(function(){
+	    var $div_li =$("div.d_a ul li");
+	    $div_li.mousemove(function(){
+			$(this).addClass("c_more")            //当前<li>元素高亮
+				   .siblings().removeClass("c_more");  //去掉其它同辈<li>元素的高亮
+            var index =  $div_li.index(this);  // 获取当前点击的<li>元素 在 全部li元素中的索引。
+			$("div.d_box > div")   	//选取子节点。不选取子节点的话，会引起错误。如果里面还有div 
+					.eq(index).show()   //显示 <li>元素对应的<div>元素
+					.siblings().hide(); //隐藏其它几个同辈的<div>元素
+		}).hover(function(){
+			$(this).addClass("hover");
+		},function(){
+			$(this).removeClass("hover");
+		})
+	})
