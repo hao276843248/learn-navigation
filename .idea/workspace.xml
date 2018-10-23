@@ -4,7 +4,64 @@
     <list default="true" id="7bb48d40-1827-441e-940f-611c71839164" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/gitnote" afterPath="$PROJECT_DIR$/gitnote" />
-      <change beforePath="$PROJECT_DIR$/导航/index.html" afterPath="$PROJECT_DIR$/导航/index.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/app.js" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/app.js" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/fonts/fontawesome/FontAwesome.otf" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/fonts/fontawesome/FontAwesome.otf" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/fonts/fontawesome/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/fonts/fontawesome/fontawesome-webfont.eot" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/fonts/fontawesome/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/fonts/fontawesome/fontawesome-webfont.svg" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/fonts/fontawesome/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/fonts/fontawesome/fontawesome-webfont.woff" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/images/apple-touch-icon-precomposed-152.png" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/images/apple-touch-icon-precomposed-152.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/images/favicon.ico" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/images/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-fontsettings/buttons.js" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-fontsettings/buttons.js" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-fontsettings/website.css" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-fontsettings/website.css" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-highlight/ebook.css" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-highlight/ebook.css" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-highlight/website.css" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-highlight/website.css" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-search/lunr.min.js" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-search/lunr.min.js" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-search/search.css" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-search/search.css" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-search/search.js" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-search/search.js" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/plugins/gitbook-plugin-sharing/buttons.js" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/plugins/gitbook-plugin-sharing/buttons.js" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/gitbook/style.css" afterPath="$PROJECT_DIR$/数据库/mongodb/gitbook/style.css" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/index.html" afterPath="$PROJECT_DIR$/数据库/mongodb/index.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/1.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/1.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/2.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/2.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/3.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/3.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/4.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/4.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/5.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/5.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/6.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/6.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/7.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/7.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/7_1.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/7_1.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/7_2.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/7_2.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/7_3.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/7_3.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/7_4.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/7_4.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/7_5.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/7_5.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/8.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/8.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part1/images/gui.png" afterPath="$PROJECT_DIR$/数据库/mongodb/part1/images/gui.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/1.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/1.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2_1.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2_1.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2_2.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2_2.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2_3.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2_3.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2_4.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2_4.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2_5.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2_5.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/2_6.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/2_6.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/3.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/3.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/4.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/4.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/5.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/5.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/6.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/6.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/7.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/7.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/8.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/8.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/9.html" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/9.html" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/images/init.png" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/images/init.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/images/second.png" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/images/second.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/images/shared.png" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/images/shared.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/images/status1.png" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/images/status1.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/part2/images/status2.png" afterPath="$PROJECT_DIR$/数据库/mongodb/part2/images/status2.png" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/search_index.json" afterPath="$PROJECT_DIR$/数据库/mongodb/search_index.json" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/笔记/总结1.txt" afterPath="$PROJECT_DIR$/数据库/mongodb/笔记/总结1.txt" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/笔记/总结2.txt" afterPath="$PROJECT_DIR$/数据库/mongodb/笔记/总结2.txt" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/软件包/mongodb-linux-x86_64-ubuntu1604-3.4.0.tgz" afterPath="$PROJECT_DIR$/数据库/mongodb/软件包/mongodb-linux-x86_64-ubuntu1604-3.4.0.tgz" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/软件包/pymongo-3.4.0.tar.gz" afterPath="$PROJECT_DIR$/数据库/mongodb/软件包/pymongo-3.4.0.tar.gz" />
+      <change beforePath="$PROJECT_DIR$/数据库/mongo/软件包/robomongo-0.9.0-linux-x86_64-0786489.tar.gz" afterPath="$PROJECT_DIR$/数据库/mongodb/软件包/robomongo-0.9.0-linux-x86_64-0786489.tar.gz" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +75,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/导航/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="269" column="6" lean-forward="true" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
+            <state relative-caret-position="320">
+              <caret line="233" column="56" lean-forward="false" selection-start-line="233" selection-start-column="56" selection-end-line="233" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -114,11 +171,6 @@
             <path>
               <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="前端讲义" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
               <item name="前端课件相关" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -137,6 +189,17 @@
               <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
               <item name="导航" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="数据库" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="数据库" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,12 +255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540260534603</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改路径">
+      <created>1540264332176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540264332176</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -206,7 +275,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.253212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -314,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/导航/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="269" column="6" lean-forward="true" selection-start-line="269" selection-start-column="6" selection-end-line="269" selection-end-column="6" />
+        <state relative-caret-position="320">
+          <caret line="233" column="56" lean-forward="false" selection-start-line="233" selection-start-column="56" selection-end-line="233" selection-end-column="56" />
           <folding />
         </state>
       </provider>
