@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb48d40-1827-441e-940f-611c71839164" name="Default" comment="">
+    <list default="true" id="7bb48d40-1827-441e-940f-611c71839164" name="Default" comment="修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/gitnote" afterPath="$PROJECT_DIR$/gitnote" />
       <change beforePath="$PROJECT_DIR$/导航/index.html" afterPath="$PROJECT_DIR$/导航/index.html" />
@@ -18,8 +18,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/导航/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="339" column="6" lean-forward="true" selection-start-line="339" selection-start-column="6" selection-end-line="339" selection-end-column="6" />
+            <state relative-caret-position="226">
+              <caret line="332" column="17" lean-forward="false" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544093905125</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改">
+      <created>1544093984902</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544093984902</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -449,8 +456,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/导航/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="339" column="6" lean-forward="true" selection-start-line="339" selection-start-column="6" selection-end-line="339" selection-end-column="6" />
+        <state relative-caret-position="226">
+          <caret line="332" column="17" lean-forward="false" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
