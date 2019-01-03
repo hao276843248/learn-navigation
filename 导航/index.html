@@ -7,6 +7,10 @@
 
     <title>Me</title>
     <style type="text/css">
+        * {
+            cursor: var(--bg), auto;
+        }
+
         object,
         embed {
             -webkit-animation-duration: .001s;
@@ -171,7 +175,33 @@
             transition: opacity 0.3s
         }
     </style>
-    <link rel="shortcut icon" href=" ../导航/index_files/favicon.ico" />
+    <link rel="shortcut icon" href=" ../导航/index_files/favicon.ico"/>
+    <script>
+        element = document.documentElement
+        function showAlert(el) {
+            root = document.documentElement
+            a2 = root.style.getPropertyValue('--bg')
+            url = ""
+            if (a2 == "") {
+                url = 'url("index_files/cursor/' + 1 + '.png")'
+            } else {
+                num = a2.split("/")[2].split('.')[0]
+                if (num == 40) {
+                    num = 1
+                } else {
+                    num++
+                }
+                url = 'url("index_files/cursor/' + num + '.png")'
+            }
+            //a = Math.floor(Math.random() * 20 + 1);
+            //url = 'url("../static/cursor/' + a + '.png")'
+            root.style.setProperty('--bg', url)
+            a2 = root.style.getPropertyValue('--bg')
+        }
+
+        element.onclick = showAlert
+        showAlert()
+    </script>
 </head>
 
 <body id="nv_CURSCRIPT" class="pg_CURMODULE" onkeydown="if(event.keyCode==27) return false;">
