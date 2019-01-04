@@ -2,46 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb48d40-1827-441e-940f-611c71839164" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/16.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/18.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/20.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/23.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/25.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/26.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/27.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/28.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/29.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/30.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/31.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/32.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/34.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/35.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/36.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/37.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/38.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/39.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/40.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/7.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/8.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/导航/index_files/cursor/9.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/gitnote" afterPath="$PROJECT_DIR$/gitnote" />
       <change beforePath="$PROJECT_DIR$/导航/index.html" afterPath="$PROJECT_DIR$/导航/index.html" />
@@ -58,14 +18,21 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/导航/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="189" column="27" lean-forward="true" selection-start-line="189" selection-start-column="27" selection-end-line="189" selection-end-column="27" />
+            <state relative-caret-position="350">
+              <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/导航/index_files/cursor/6.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -132,6 +99,12 @@
               <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
               <item name="导航" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
+              <item name="导航" type="462c0819:PsiDirectoryNode" />
+              <item name="index_files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,7 +243,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546049336264</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="鼠标样式更改">
+      <created>1546507100760</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546507100761</updated>
+    </task>
+    <task id="LOCAL-00014" summary="鼠标样式更改">
+      <created>1546571307532</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546571307532</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -589,10 +576,15 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/导航/index_files/cursor/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/导航/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="189" column="27" lean-forward="true" selection-start-line="189" selection-start-column="27" selection-end-line="189" selection-end-column="27" />
+        <state relative-caret-position="350">
+          <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
