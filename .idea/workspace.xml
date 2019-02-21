@@ -1,7 +1,302 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bb48d40-1827-441e-940f-611c71839164" name="Default" comment="">
+    <list default="true" id="7bb48d40-1827-441e-940f-611c71839164" name="Default" comment="drf,django项目">
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/AboutDRF.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/CoreTaskToDevelopRESTAPI.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/DevelopRESTAPIWithDjango.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/HowToDesignREST.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/IntroduceToREST.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/SeparatedFrontendAndBackend.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C01-IntroduceToDRF/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C02-DRFProject/InstallAndConfig.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C02-DRFProject/TheFirstDRFProgram.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C02-DRFProject/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C03-Serializer/Declaring.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C03-Serializer/Deserializing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C03-Serializer/ModelSerializer.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C03-Serializer/Serializing.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C03-Serializer/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C04-View/RequestAndResponse.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C04-View/Routers.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C04-View/View.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C04-View/ViewIntroduction.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C04-View/ViewSet.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C04-View/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Authentication.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Documents.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Exceptions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Filtering.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Ordering.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Pagination.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Permissions.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Throttling.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/Versioning.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/C05-Components/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/fonts/fontawesome/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/fonts/fontawesome/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/fonts/fontawesome/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/fonts/fontawesome/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/fonts/fontawesome/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-fontsettings/fontsettings.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-fontsettings/website.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-highlight/ebook.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-highlight/website.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-lunr/lunr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-lunr/search-lunr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-search/lunr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-search/search-engine.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-search/search.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-search/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-sharing/buttons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-splitter/splitter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-splitter/splitter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook-plugin-toggle-chapters/toggle.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/gitbook.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/images/apple-touch-icon-precomposed-152.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/gitbook/theme.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/REST作者.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/default_router.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/depended_frontend_backend.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/drf_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/indepent_frontend_backend.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/simple_router.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/保存图书返回信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/保存新图书信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/修改图书信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/修改图书返回信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/删除图书.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/删除返回信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/图书接口Web浏览页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/接口文档网页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/查询所有图书信息1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/查询所有图书页面2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/获取单一图书信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/视图集类继承关系.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/视图集类继承关系_含方法.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/通用视图的继承关系.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/images/通用视图的继承关系_含方法和属性.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRF/search_index.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/BusinessModel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/Config.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/DevelopmentProcess.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/ProductAnalysis.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/ProjectStructure.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/StartProject.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C01-Prepare/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/AccountExistingCheck.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Address/AreaSelect.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Address/Cache.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Address/UserAddressCode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Address/UserAddressManagement.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Address/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/CORS.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/CelerySendSMSCode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/DRF-JWT.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Email/DjangoEmail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Email/SendEmail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Email/VerifyEmail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Email/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/ImageCode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/JWT.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/QQLogin/Step1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/QQLogin/Step2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/QQLogin/Step3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/QQLogin/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/QQLoginSequence.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/Register.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/RegisterAnalysis.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/SMSCode.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/UserInfo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/UserModel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C02-Users/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/CKEditor.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/DatabaseDesign.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/DjangoCrontab.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/Docker/InstallAndOperations.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/Docker/Introduce.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/Docker/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/FastDFS.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/FastDFSClientAndDjangoFileSystem.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/FastDFSDocker.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/FreezeHTML.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/GenerateIndexHTMLScript.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/GoodsDetail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/GoodsList.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/GoodsSearch.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/HotSaleGoods.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/ImportGoodsData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/UserBrowseHistory.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C03-Goods/商品详情规格说明.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/Add.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/DataStructureDesign.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/Delete.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/MergeCart.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/Modify.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/Query.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/SelectAll.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C04-Cart/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C05-Order/OrderDBModel.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C05-Order/OrderSuccess.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C05-Order/PlaceOrder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C05-Order/SaveOrder.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C05-Order/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C06-Pay/Alipay.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C06-Pay/Paying.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C06-Pay/PaymentResult.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C06-Pay/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C07-Xadmin.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C08-Permission.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C09-Database/MasterSlave.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C09-Database/ReadWriteSeparate.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C09-Database/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/C10-Deploy.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/app.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/fonts/fontawesome/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/fonts/fontawesome/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/fonts/fontawesome/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/fonts/fontawesome/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/fonts/fontawesome/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/images/apple-touch-icon-precomposed-152.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/images/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-expandable-chapters/expandable-chapters.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-expandable-chapters/expandable-chapters.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-fontsettings/buttons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-fontsettings/website.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-highlight/ebook.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-highlight/website.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-search/lunr.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-search/search.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-search/search.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-sharing/buttons.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-splitter/splitter.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/plugins/gitbook-plugin-splitter/splitter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/gitbook/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/B2B.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/B2C.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/C2B.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/C2C.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/Docker客户端与服务器.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/Docker容器.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/F2C.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/FastDFS上传后文件路径.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/FastDFS下载流程.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/FastDFS文件上传流程.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/FastDFS结构.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/O2O.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/OS层虚拟化.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/QQ登录时序图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/QQ登录绑定用户.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/QQ登录页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/QQ绑定身份1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/QQ绑定身份2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/bookmarks.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/ckeditor修正方法.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/ckeditor富文本编辑器.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/ckeditor错误.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/container与vms对比.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/crontab错误.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/data_charts.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/django权限控制.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/docker hello world.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/docker logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/docker使用上的区别.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/docker镜像.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/get_count异常.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/jwt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/list_display.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/list_editable.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/list_editable2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/list_export.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/list_filter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/master_mysql.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/model_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/mysqldump.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/readonly_fields.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/refresh_times.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/search_fields.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/show_detail_fields.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/show_detail_fields2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/slave状态.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/xadmin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/xadmin全局配置.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/个人信息页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/修改mysql的事务隔离级别.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/修改密码页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/克隆到本地.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/全架构虚拟化.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/列出镜像.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/列表页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/创建slave账号.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/去支付页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/发起合并请求.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/合并请求说明.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/商品数据库表结构.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/商品评价页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/商品详情页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/地址管理页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/填写项目库信息.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/字典索引页.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/安装live-server.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/安装node.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/工程目录.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/并发下单.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/开发流程介绍.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/忘记密码页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/我的订单页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/找到项目克隆地址.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/接受合并.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/搜索页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/支付完成.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/支付宝公钥.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/支付宝支付.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/支付成功跳转数据.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/支付页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/服务器架构图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/注册页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/添加私有项目.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/用户权限.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/电脑网站支付流程图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/登录页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/省市区选择.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/硬件虚拟化.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/确认订单页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/简易FastDFS构建.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/编辑数据库配置文件.jpeg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/美多商城.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/获取master二进制文件.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/规格参数确定图.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/规格选项.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/订单数据库结构.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/订单结算页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/设置邮箱.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/设置邮箱3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/设置邮箱账号1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/设置邮箱账号2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/设置邮箱账号4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/购物车Redis数据结构.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/购物车页面.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/进入沙箱环境.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/进行合并.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/邮箱已验证.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/配置公钥.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/重新发送验证邮件.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/项目整体架构.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/首页.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/首页广告数据库结构.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/images/验证邮件.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/django项目/search_index.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/gitnote" afterPath="$PROJECT_DIR$/gitnote" />
       <change beforePath="$PROJECT_DIR$/导航/index.html" afterPath="$PROJECT_DIR$/导航/index.html" />
@@ -15,16 +310,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/导航/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+            <state relative-caret-position="583">
+              <caret line="361" column="30" lean-forward="true" selection-start-line="361" selection-start-column="30" selection-end-line="361" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/django项目/gitbook/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="3729" column="26" lean-forward="true" selection-start-line="3729" selection-start-column="26" selection-end-line="3729" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,6 +393,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,23 +402,10 @@
               <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="导航" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learn-navigation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learn-navigation" type="462c0819:PsiDirectoryNode" />
-              <item name="导航" type="462c0819:PsiDirectoryNode" />
-              <item name="index_files" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,6 +416,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\课件\learn-navigation" />
       <recent name="F:\课件\learn-navigation\导航\index_files" />
     </key>
   </component>
@@ -257,22 +552,39 @@
       <option name="project" value="LOCAL" />
       <updated>1546571307532</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="鼠标样式更改">
+      <created>1546571391341</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546571391341</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23072805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23340471" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -283,7 +595,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -328,13 +639,31 @@
     <MESSAGE value="新增docker" />
     <MESSAGE value="新增图标文件" />
     <MESSAGE value="鼠标样式更改" />
-    <option name="LAST_COMMIT_MESSAGE" value="鼠标样式更改" />
+    <MESSAGE value="drf,django项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="drf,django项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/导航/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/导航/index_files/cursor/6.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/导航/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -583,13 +912,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/导航/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="190" column="24" lean-forward="true" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+        <state relative-caret-position="583">
+          <caret line="361" column="30" lean-forward="true" selection-start-line="361" selection-start-column="30" selection-end-line="361" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#1;n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django项目/gitbook/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="3729" column="26" lean-forward="true" selection-start-line="3729" selection-start-column="26" selection-end-line="3729" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
